@@ -1,9 +1,9 @@
 ## PHP-LAB
-方便测试同一套代码在不同PHP 版本下运行的不一致性 
+方便测试同一套PHP代码在不同PHP 版本下运行的不一致性 
 
 
-## Usage 
-PHP 放在 code 文件夹下即可
+## 使用方法
+PHP代码放在 code 文件夹下即可
 
 ```sh 
 docker-compose up --build --remove-orphans  
