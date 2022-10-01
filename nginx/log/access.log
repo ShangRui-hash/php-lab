@@ -1,0 +1,8 @@
+172.19.0.1 - - [01/Oct/2022:02:45:04 +0000] "GET /phpinfo.php HTTP/1.1" 200 77884 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+172.19.0.1 - - [01/Oct/2022:02:45:05 +0000] "GET /favicon.ico HTTP/1.1" 404 548 "http://localhost:8181/phpinfo.php" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+172.19.0.1 - - [01/Oct/2022:02:45:14 +0000] "GET /phpinfo.php HTTP/1.1" 200 77878 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+172.19.0.1 - - [01/Oct/2022:02:45:14 +0000] "GET /favicon.ico HTTP/1.1" 404 548 "http://localhost:8180/phpinfo.php" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+172.19.0.1 - - [01/Oct/2022:02:45:17 +0000] "GET /phpinfo.php HTTP/1.1" 200 78047 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+172.19.0.1 - - [01/Oct/2022:02:45:21 +0000] "GET /phpinfo.php HTTP/1.1" 200 77883 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+172.19.0.1 - - [01/Oct/2022:02:45:41 +0000] "GET /phpinfo.php HTTP/1.1" 200 78054 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+172.19.0.1 - - [01/Oct/2022:02:45:45 +0000] "GET /phpinfo.php HTTP/1.1" 200 77266 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
