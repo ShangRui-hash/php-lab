@@ -22,6 +22,8 @@ docker-compose up --build --remove-orphans
 | 8182 | 82 | 8.0.24 | 7.83.1 |
 
 
+注意php-fpm版本和其所使用的libcurl版本没有必然的对应关系，以上对应关系只是所使用镜像中的对应关系
+
 
 
 
