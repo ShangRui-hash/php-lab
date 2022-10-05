@@ -8,7 +8,7 @@ PHP代码放在 code 文件夹下即可
 ```sh 
 docker-compose up --build --remove-orphans  
 ```
-|宿主机port| 镜像内port | php-fpm | libcurl |
+|宿主机port| 容器内port | php-fpm | libcurl |
 | ---- | ---- |---- | ---- | 
 | 8183 | 83 | 7.0.0 | 7.38.0 | 
 | 8186 | 86 | 7.0.19 | 7.52.1 | 
