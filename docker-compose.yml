@@ -18,14 +18,88 @@ services:
       - ./code/:/var/www/html/
     ports:
       - 9103:9000 
+  php8.0.24:
+    image: php:8.0.24-fpm-alpine3.16
+    networks:
+      - demo-network
+    volumes:
+      - ./code/:/var/www/html/
+    ports:
+      - 9104:9000 
+  php7.0.0:
+    image: php:7.0.0-fpm
+    networks:
+      - demo-network
+    volumes:
+      - ./code/:/var/www/html/
+    ports:
+      - 9105:9000 
+  php7.1.0:
+    image: php:7.1-fpm-alpine3.7
+    networks:
+      - demo-network
+    volumes:
+      - ./code/:/var/www/html/
+    ports:
+      - 9106:9000 
+  php7.0.33:
+    image: php:7.0.33-fpm-alpine3.7
+    networks:
+      - demo-network
+    volumes:
+      - ./code/:/var/www/html/
+    ports:
+      - 9107:9000 
+  php7.0.19:
+    image: php:7.0.19-fpm-alpine
+    networks:
+      - demo-network
+    volumes:
+      - ./code/:/var/www/html/
+    ports:
+      - 9108:9000 
+  php7.0.29:
+    image: php:7.0.29-fpm-alpine3.4
+    networks:
+      - demo-network
+    volumes:
+      - ./code/:/var/www/html/
+    ports:
+      - 9109:9000
+  php7.0.24:
+    image: php:7.0.24-fpm-alpine3.4
+    networks:
+      - demo-network
+    volumes:
+      - ./code/:/var/www/html/
+    ports:
+      - 9110:9000
+  php7.4.21:
+    image: php:7.4.21-fpm-alpine3.14
+    networks:
+      - demo-network
+    volumes:
+      - ./code/:/var/www/html/
+    ports:
+      - 9111:9000
+
+     
 
   nginx:
     image: nginx:latest #指定镜像的名字
     networks:
       - demo-network
     depends_on:
+      - php7.0.0
+      - php7.0.19
+      - php7.0.24
+      - php7.0.29
+      - php7.0.33
+      - php7.1.0
       - php7.4.0
+      - php7.4.21
       - php7.4.30
+      - php8.0.24
     volumes:
       - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf
       - ./nginx/log/:/var/log/nginx
@@ -33,6 +107,14 @@ services:
     ports:
       - 8180:80
       - 8181:81
+      - 8182:82
+      - 8183:83
+      - 8184:84
+      - 8185:85
+      - 8186:86
+      - 8187:87
+      - 8188:88
+      - 8189:89
 
    
 networks:
