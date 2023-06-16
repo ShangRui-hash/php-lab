@@ -32,4 +32,4 @@ docker-compose up --build --remove-orphans
 启动多个不同版本的php-fpm 镜像，通过 nginx 监听不同的端口，转发请求给不同版本的php-fpm , 宿主机、nginx、多个不同版本的php-fpm 通过目录映射共享同一套PHP源码
 
 ## QQ 交流群
-<img src="https://store.heytapimage.com/cdo-portal/feedback/202301/04/ed1d5ac9f0c48af0a154037fb892024f.png" height="250px" width="250px" alt="图片.png" title="图片.png" referrerPolicy="no-referrer" />
+<img src="https://www.aqniukt.com/files/user/2023/06-16/1916375aa279489614.jpg" height="250px" width="250px" alt="图片.png" title="图片.png" referrerPolicy="no-referrer" />
